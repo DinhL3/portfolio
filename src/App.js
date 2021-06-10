@@ -8,7 +8,8 @@ function App() {
     <div className="App">
       <Background />
       <section className="container--flex">
-        <h1>Hi, I'm Dinh</h1>
+        <h1 className="title">Hi, I'm Dinh</h1>
+        <p className="subtitle">I make beautiful things that people enjoy</p>
       </section>
       <section className="container--flex">
         <h1>About me</h1>
