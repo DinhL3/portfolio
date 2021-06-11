@@ -1,0 +1,21 @@
+@use "../abstracts" as *;
+
+.about-me__img {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: $box-shadow;
+}
+
+.about-me {
+  @include d-flex(row, center, center);
+}
+
+.about-me__left {
+  margin-right: 3rem;
+}
+
+.about-me__header {
+  font-size: 3rem;
+  color: $blue-white;
+  margin-bottom: 0.5rem;
+}

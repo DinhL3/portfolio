@@ -1,13 +1,27 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @mixin d-flex($direction, $justify, $align) {
-  display: flex !important;
-  flex-direction: $direction !important;
-  justify-content: $justify !important;
-  align-items: $align !important;
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
 }
 
 $font-heading: "Work Sans", sans-serif;
-$font-body: "Open Sans", sans-serif;
+$font-body: "Poppins", sans-serif;
+
+$blue-grey: hsl(235, 50%, 90%);
+$blue-white: hsl(235, 50%, 95%);
+$cyan: hsl(193, 100%, 80%);
+
+$box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.3);
+
+.mt-05 {
+  margin-top: 0.5rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}

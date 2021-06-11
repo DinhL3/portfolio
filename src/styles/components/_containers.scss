@@ -34,3 +34,14 @@
   );
   z-index: -1;
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  padding-bottom: 0.5em;
+  opacity: 0.5;
+  span {
+    color: $blue-grey;
+  }
+}

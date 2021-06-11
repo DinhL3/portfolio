@@ -1,0 +1,20 @@
+@use "../abstracts" as *;
+
+.btn {
+  @include d-flex(row, center, center);
+  background: transparent;
+  color: $blue-grey;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  font-family: $font-body;
+  border: 1px solid $blue-grey;
+  transition: 0.4s;
+  .material-icons {
+    color: inherit;
+    margin-right: 0.5em !important;
+  }
+  &:hover {
+    border: 1px solid $cyan;
+    color: $cyan;
+  }
+}
