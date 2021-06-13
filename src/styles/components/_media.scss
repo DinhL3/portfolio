@@ -1,0 +1,64 @@
+@use "../abstracts" as *;
+
+$break-phone: 320px;
+$break-phone-lg: 546px;
+$break-tablet: 768px;
+$break-laptop: 1366px;
+
+@media (min-width: $break-phone) and (max-width: $break-phone-lg) {
+  .title,
+  .about-me__header {
+    font-size: 2rem !important;
+  }
+  .projects__header {
+    font-size: 1.3rem !important;
+  }
+  .tags {
+    font-size: 1.5rem !important;
+  }
+  .subtitle,
+  .paragraph {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+  .btn {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (min-width: $break-phone-lg) and (max-width: $break-tablet) {
+  .title {
+    font-size: 3rem;
+  }
+  .subtitle {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: $break-tablet) {
+  .about-me,
+  .projects {
+    flex-direction: column !important;
+  }
+  .projects__left {
+    align-items: center !important;
+  }
+  .btn-bar {
+    justify-content: center !important;
+    margin-bottom: 2rem;
+  }
+  .about-me__left,
+  .projects__left {
+    margin-right: 0 !important;
+  }
+  .about-me__right {
+    text-align: center;
+    .btn {
+      margin: auto;
+      margin-top: 1rem;
+    }
+  }
+  .about-me__header {
+    margin-top: 2rem;
+  }
+}

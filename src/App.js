@@ -35,8 +35,10 @@ function App() {
         </Fade>
         <Fade>
           <div className="snap-item">
-            <section className="container--flex">
-              <p>For any inqueries, please use the contact form below</p>
+            <section className="contact container--flex">
+              <p className="text-center pside-1">
+                For any inqueries, please use the contact form below
+              </p>
               <button
                 className="btn mt-1"
                 onClick={() =>

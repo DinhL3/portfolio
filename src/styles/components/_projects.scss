@@ -13,6 +13,7 @@
 
 .projects__left {
   @include d-flex(column, center, flex-start);
+  margin-right: 3rem;
 }
 
 .projects__title {
@@ -22,7 +23,6 @@
 
 .projects__right {
   width: 300px;
-  margin-left: 3rem;
 }
 
 .tags {
