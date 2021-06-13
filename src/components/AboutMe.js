@@ -12,7 +12,7 @@ const AboutMe = () => {
           />
         </div>
         <div className="about-me__right">
-          <h1 className="about-me__header">About me</h1>
+          <h1 className="about-me__header mb-05">About me</h1>
           <p className="paragraph">
             My name is Dinh Q. Le. I was a YouTuber and video editor. After we
             got the YouTube Gold Play button, I decided to change my career

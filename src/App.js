@@ -3,6 +3,7 @@ import "./App.css";
 
 import Background from "./components/Background";
 import AboutMe from "./components/AboutMe";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -13,9 +14,7 @@ function App() {
         <p className="subtitle">I make beautiful things that people enjoy</p>
       </section>
       <AboutMe id="about-me" />
-      <section className="container--flex">
-        <h1>Featured project</h1>
-      </section>
+      <Projects id="projects" />
       <section className="container--flex">
         <h1>Contact</h1>
       </section>

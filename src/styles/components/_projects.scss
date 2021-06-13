@@ -1,0 +1,65 @@
+@use "../abstracts" as *;
+
+.projects__header {
+  position: absolute;
+  top: 0.5rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.projects {
+  @include d-flex(row, center, center);
+}
+
+.projects__left {
+  @include d-flex(column, center, flex-start);
+}
+
+.projects__title {
+  font-family: "comic neue", cursive;
+  font-weight: 600;
+}
+
+.projects__right {
+  width: 300px;
+  margin-left: 3rem;
+}
+
+.tags {
+  color: $blue-grey;
+  opacity: 0.5;
+  font-size: 2rem;
+}
+
+.btn-bar {
+  width: 100%;
+  @include d-flex(row, flex-start, center);
+}
+
+.slide {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: $box-shadow;
+}
+
+.slick-list {
+  overflow: visible !important;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
+.slick-dots {
+  bottom: 1rem !important;
+}
+
+.slick-dots li button::before {
+  color: $blue-grey !important;
+}
+
+.slick-dots li.slick-active button::before {
+  color: $blue-grey !important;
+}
