@@ -16,10 +16,18 @@ const AboutMe = () => {
           <p className="paragraph">
             My name is Dinh Q. Le. I was a YouTuber and video editor. After we
             got the YouTube Gold Play button, I decided to change my career
-            path. I become a developer so I can continue making beautiful things
-            many people enjoy.
+            path. I become a developer so I can make many beautiful products
+            that people enjoy.
           </p>
-          <button className="btn mt-1">
+          <button
+            className="btn mt-1"
+            onClick={() =>
+              window.open(
+                `https://drive.google.com/file/d/1iO-OV1picITWNHz835TvYKC3N9YdT4df/view`,
+                "_blank"
+              )
+            }
+          >
             <span class="material-icons">description</span>CV
           </button>
         </div>

@@ -38,7 +38,8 @@ const Projects = () => {
                 window.open(`https://kinder-words.netlify.app/`, "_blank")
               }
             >
-              <span className="material-icons">open_in_new</span>Demo
+              <i class="fas fa-external-link-alt"></i>
+              Demo
             </button>
             <button
               className="btn mr-05"
