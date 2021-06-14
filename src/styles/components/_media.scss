@@ -2,27 +2,34 @@
 
 $break-phone: 320px;
 $break-phone-lg: 546px;
+$break-android-h: 640px;
 $break-tablet: 768px;
 $break-laptop: 1366px;
 
 @media (min-width: $break-phone) and (max-width: $break-phone-lg) {
   .title,
   .about-me__header {
-    font-size: 2rem !important;
+    font-size: 1.8rem !important;
   }
   .projects__header {
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
+  }
+  .projects__title {
+    font-size: 1.4rem !important;
   }
   .tags {
-    font-size: 1.5rem !important;
+    font-size: 1.4rem !important;
   }
   .subtitle,
   .paragraph {
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 0 1rem;
   }
   .btn {
     font-size: 0.9rem !important;
+  }
+  .about-me__img {
+    width: 150px !important;
   }
 }
 
@@ -60,5 +67,14 @@ $break-laptop: 1366px;
   }
   .about-me__header {
     margin-top: 2rem;
+  }
+}
+
+// height
+@media (min-height: $break-phone) and (max-height: $break-android-h) {
+  .projects__right,
+  .slide {
+    width: 200px !important;
+    height: 200px !important;
   }
 }
